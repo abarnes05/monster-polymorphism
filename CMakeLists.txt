@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(Monsters)
+project(monster-polymorphism)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -23,7 +23,6 @@ add_executable(Darkness_Monster_Testing
         Darkness_Monsters/Closet_Monster.cpp
         Darkness_Monsters/Darkness_Monster_Testing.cpp
         Darkness_Monsters/Under_Bed_Monster.cpp)
-#TODO: Uncomment this line once you create Sky_Monster.h and Sky_Monster.cpp in the Sky_Monsters folder
 add_executable(Sky_Monster_Testing
         Sky_Monsters/Sky_Monster.cpp
         Sky_Monsters/Cloud_Monster.cpp

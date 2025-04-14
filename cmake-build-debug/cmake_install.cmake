@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alexiabarnes/CLionProjects/Monsters-abarne10
+# Install script for directory: /Users/alexiabarnes/CLionProjects/monster-polymorphism
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/alexiabarnes/CLionProjects/Monsters-abarne10/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/alexiabarnes/CLionProjects/monster-polymorphism/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
